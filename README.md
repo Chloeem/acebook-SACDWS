@@ -1,8 +1,7 @@
 # Acebook
+[Presentation ](https://docs.google.com/presentation/d/126CHpomnPGjHETNXBd1pXQgrdIJa2hRLT_8i_uSOU4I/edit?usp=sharing)| [ Project Board ](https://trello.com/b/i0GzPkoZ/acebook-board-super-awesome-cool-dynamite-wolf-squadron)
 
-This is a Node.js template for the Acebook engineering project.
-
-It uses:
+## Tech Stack
 
 - [Express](https://expressjs.com/) web framework for Node.js.
 - [Nodemon](https://nodemon.io/) to reload the server automatically.
@@ -13,9 +12,11 @@ It uses:
 - [Cypress](https://www.cypress.io/) for end-to-end testing.
 - [Bootstrap](https://getbootstrap.com/) for template rendering of HTML and CSS.
 
-## Card wall
+<br>
 
-<a href="https://trello.com/b/i0GzPkoZ/acebook-board-super-awesome-cool-dynamite-wolf-squadron">Project Board</a>
+------
+<br>
+
 
 ## MVP
 - Sign up: validation
@@ -24,6 +25,12 @@ It uses:
 - Show posts in reverse chronological order
 - I want to see a users name/photo next to each post
 - I want to be able to comment on a post
+
+<br>
+
+------
+<br>
+
 
 ## MVP User stories
 ```
@@ -52,6 +59,12 @@ So that I socialise with my friends
 I want to comment on posts 
 ```
 
+<br>
+
+------
+<br>
+
+
 ## Additional user stories
 ```
 As a User
@@ -78,10 +91,34 @@ As a User
 So that I can use the website
 I want to access the site from a Heroku link
 ```
+<br>
+
+------
+<br>
 
 ## Credits
 
 Credit to Bromley and his team for some code we re-used (with permission) within the /cypress/plugins/index.js and /cypress/support/index.js to enable auto clearing of test databases (code taken from <a href="https://github.com/nyahehnagi/acebook-makerverse">here </a>)
+
+<br>
+
+------
+<br>
+
+## Screenshots of the website
+### Homepage:
+![Homepage](./public/images/homepage-screenshot.png)
+
+### Feed:
+![Feed](./public/images/feed-screenshot.png)
+
+### Profile page:
+![Profile](./public/images/profile-page.png)
+
+<br>
+
+------
+<br>
 
 ## Quickstart
 
@@ -98,22 +135,19 @@ Credit to Bromley and his team for some code we re-used (with permission) within
    nvm install 16
    ```
 
-### Set up your project
+### Set up
 
-1. Fork this repository
-2. Rename your fork to `acebook-<team name>`
-3. Clone your fork to your local machine
-4. Install Node.js dependencies
+1. Install Node.js dependencies
    ```
    npm install
    ```
-5. Install an ESLint plugin for your editor. For example: [linter-eslint](https://github.com/AtomLinter/linter-eslint) for Atom.
-6. Install MongoDB
+2. Install an ESLint plugin for your editor. For example: [linter-eslint](https://github.com/AtomLinter/linter-eslint) for Atom.
+3. Install MongoDB
    ```
    brew tap mongodb/brew
    brew install mongodb-community@4.4
    ```
-7. Start MongoDB
+4. Start MongoDB
    ```
    brew services start mongodb-community@4.4
    ```
@@ -150,14 +184,3 @@ npm run start:test
 
 This starts the server on port `3030` and uses the `acebook_test` MongoDB database,
 so that integration tests do not interact with the development server.
-
-## MongoDB Connection Errors?
-
-Some people occasionally experience MongoDB connection errors when running the tests or trying to use the application. Here are some tips which might help resolve such issues.
-
-- Check that MongoDB is installed using `mongo --version`
-- Check that it's running using `brew services list`
-- Try swapping `localhost`, everywhere that it appears in your codebase, with `127.0.0.1`. It might be surprising but this does sometimes make a difference.
-
-If you have issues that are not resolved by these tips, please reach out to a coach and, once the issue is resolved, we can add a new tip!
-
