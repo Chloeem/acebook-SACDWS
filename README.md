@@ -17,6 +17,17 @@
 ------
 <br>
 
+## Collaborators
+- [Ben Hall](https://github.com/Ledders26)
+- [Ben Partington](https://github.com/benpartington)
+- [Charlotte Buchan](https://github.com/CBuchan5)
+- [Chloë Emily Stokes](https://github.com/Chloeem)
+- [Marie Mc Guinness](https://github.com/mmguinness)
+- [Tim Ogilvie-Harris](https://github.com/breadmaking)
+<br>
+
+------
+<br>
 
 ## MVP
 - Sign up: validation
